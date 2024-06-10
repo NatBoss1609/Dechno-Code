@@ -58,19 +58,23 @@ header nav ul li {
 
 .nav-link{
     color: #fff;
+    text-transform: uppercase;
 }
 
 header nav ul li:last-child .nav-link {
     background-color: white;
     padding: 5px 10px;
     color: black;
+    text-transform: uppercase;
 }
 
 svg{
     color: #fff;
 }
 
-@media (max-width: 700px) {
+
+/* RESPONSIVE HEADER */
+@media (max-width: 770px) {
     .toggler-container {
       display: block;
     }
@@ -104,4 +108,16 @@ svg{
       color: #000;
       text-decoration: none;
     }
+}
+
+@media (max-width: 400px){
+    .nav-link{
+        font-size: 12px;
+    }
+}
+
+
+/* ACCUEIL */
+main{
+    margin: 15px;
 }
