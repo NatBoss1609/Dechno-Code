@@ -4,38 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dechno Code - Agence Web</title>
-    <link rel="icon" type="image/gif" href="asset/img/logo.png" />
+    <link rel="icon" type="image/gif" href="../img/logo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="asset/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
 </head>
 <body>
     <header>
         <section>
             <article class="toggler-container">
                 <button>
-                    <img src="./asset/img/menu.svg" alt="toggle menu">
+                    <img src="../img/menu.svg" alt="toggle menu">
                 </button>
             </article>            
-            <img src="./asset/img/logo.png" alt="logo Dechno Code">
+            <img src="../img/logo.png" alt="logo Dechno Code">
             <nav class="navigation">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                      <a class="nav-link" href="index.html" title="lien vers la page d'accueil">Accueil</a>
+                      <a class="nav-link" href="../../index.html" title="lien vers la page d'accueil">Accueil</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="asset/php/formation.php" title="lien vers la page de formations">Formations</a>
+                      <a class="nav-link" href="formation.php" title="lien vers la page de formations">Formations</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="asset/php/portfolio.php" title="lien vers la page protfolio">Portfolio</a>
+                      <a class="nav-link" href="portfolio.php" title="lien vers la page protfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="asset/php/services.php" title="lien vers la page services">Services</a>
+                      <a class="nav-link" href="services.php" title="lien vers la page services">Services</a>
                     </li>
                     <li class="nav-item justify-content-end">
-                      <a class="nav-link" href="asset/php/contact.php" title="lien vers la page contact">Contact</a>
+                      <a class="nav-link" href="contact.php" title="lien vers la page contact">Contact</a>
                     </li>
                   </ul>
             </nav>
@@ -45,15 +45,3 @@
             </svg>
         </section>
     </header>
-    <main>
-
-    </main>
-    <footer>
-
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/fd76b53e14.js" crossorigin="anonymous"></script>
-    <script src="./asset/js/script.js" type="text/javascript"></script>
-</body>
-</html>
