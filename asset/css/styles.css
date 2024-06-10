@@ -309,3 +309,22 @@ main .besoin a:hover{
         font-size: 1rem;
     }
 }
+
+
+/* FOOTER */
+footer{
+    background-color: var(--violet-footer);
+    color: #fff;
+}
+
+footer section.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer section.social img{
+    width: 100px;
+    margin-left: 20px;
+}
