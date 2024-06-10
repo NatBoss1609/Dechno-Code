@@ -1,6 +1,7 @@
 /* GLOBAL */
-* ::before,
-* ::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -56,7 +57,7 @@ header nav ul li {
     margin: 0;
 }
 
-.nav-link{
+.nav-link {
     color: #fff;
     text-transform: uppercase;
 }
@@ -68,56 +69,243 @@ header nav ul li:last-child .nav-link {
     text-transform: uppercase;
 }
 
-svg{
+svg {
     color: #fff;
 }
-
 
 /* RESPONSIVE HEADER */
 @media (max-width: 770px) {
     .toggler-container {
-      display: block;
+        display: block;
     }
+
     .toggler-container button {
-      padding: 4px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      cursor: pointer;
+        padding: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
     }
+
     .toggler-container img {
-      width: 18px;
+        width: 18px;
     }
+
     .navigation {
-      position: fixed;
-      width: 25%;
-      height: 100%;
-      background: #f1f1f1;
-      top: 0;
-      left: -100%;
-      padding-top: 20px;
-      transition: left 0.4s ease-out;
+        position: fixed;
+        width: 25%;
+        height: 100%;
+        background: #f1f1f1;
+        top: 0;
+        left: -100%;
+        padding-top: 20px;
+        transition: left 0.4s ease-out;
     }
+
     .navigation.active {
-      left: 0;
+        left: 0;
     }
+
     .navigation a {
-      display: block;
-      margin: 14px 0;
-      padding: 0 20px;
-      color: #000;
-      text-decoration: none;
+        display: block;
+        margin: 14px 0;
+        padding: 0 20px;
+        color: #000;
+        text-decoration: none;
     }
 }
 
-@media (max-width: 400px){
-    .nav-link{
+@media (max-width: 400px) {
+    .nav-link {
         font-size: 12px;
     }
 }
 
-
 /* ACCUEIL */
-main{
-    margin: 15px;
+main {
+    margin: 50px 15px;
+}
+
+main section.partie1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.h1,
+.h4 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.h1 {
+    flex: 1;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.h1 span {
+    color: var(--violet);
+}
+
+main .images-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+main .images-container img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+main .images-container img:first-child {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+main .images-container img:last-child {
+    position: relative;
+    z-index: 2;
+}
+
+main .besoin {
+    flex: 1;
+    max-width: 500px;
+    background-color: #000;
+    padding: 15px 20px;
+    color: #fff;
+    text-align: left;
+}
+
+main .besoin a{
+    background-color: var(--violet);
+    color: #fff;
+    border: none;
+    padding: 5px;
+    text-decoration: none;
+}
+main .besoin a:hover{
+    background-color: var(--bleu-turquoise);
+}
+
+.partie2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #111;
+    padding: 20px;
+    margin: 50px 0;
+}
+
+.quality {
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.quality img {
+    margin-right: 10px;
+}
+
+.quality h2 {
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.quality p{
+    text-transform: uppercase;
+    font-size: 0.5rem;
+}
+
+.quality p span{
+    font-weight: 800;
+}
+
+.partie3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.partie3 article {
+    position: relative; /* Pour permettre le positionnement absolu des enfants */
+}
+
+.partie3 img {
+    display: block;
+    margin: 0 auto;
+}
+
+.partie3 h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 3rem;
+    position: absolute; /* Positionne le h3 absolument par rapport à l'article parent */
+    top: 50%; /* Place le h3 au milieu verticalement */
+    left: 50%; /* Place le h3 au milieu horizontalement */
+    transform: translate(-50%, -50%); /* Centre le h3 par rapport à son centre */
+    text-align: center; /* Centre le texte à l'intérieur du h3 */
+}
+
+.partie3 h3 span {
+    font-weight: 200;
+}
+
+
+/* RESPONSIVE DESIGN PAGE ACCUEIL */
+@media (max-width: 770px) {
+    main section.partie1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .h1, main .images-container, main .besoin {
+        flex: none;
+        width: 100%;
+        max-width: none;
+        margin-bottom: 20px;
+    }
+
+    main .images-container img {
+        width: 100%;
+        max-width: 300px;
+        position: static;
+        transform: none;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 650px) {
+    .quality {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .quality img,
+    .quality h2,
+    .quality p {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .quality p {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 430px){
+    .quality h2{
+        font-size: 1rem;
+    }
 }
