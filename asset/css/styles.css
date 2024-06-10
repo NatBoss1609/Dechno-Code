@@ -1,0 +1,20 @@
+/* GLOBAL */
+* ::before ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* COULEUR */
+:root{
+    --violet: #A460F9;
+    --fond-noir: #181818;
+    --noir-bordure: #707070;
+    --bleu-turquoise: #17CBC5;
+    --violet-footer: #8C6ECA;
+}
+
+body{
+    background-color: var(--fond-noir);
+
+}
