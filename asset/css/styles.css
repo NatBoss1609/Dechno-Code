@@ -26,7 +26,7 @@ header {
     margin: 15px;
 }
 
-header section {
+header article {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,6 +38,7 @@ header section {
 
 header img {
     max-height: 200px;
+    margin-right: 20px;
 }
 
 header nav {
@@ -46,7 +47,7 @@ header nav {
 
 header nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     list-style: none;
     flex-grow: 1;
     margin: 0;
@@ -54,7 +55,7 @@ header nav ul {
 }
 
 header nav ul li {
-    margin: 0;
+    margin: 0 10px;
 }
 
 .nav-link {
@@ -71,12 +72,20 @@ header nav ul li:last-child .nav-link {
 
 svg {
     color: #fff;
+    margin-left: 20px;
 }
 
 /* RESPONSIVE HEADER */
+@media (max-width: 880px){
+    header img{
+        width: 100px;
+    }
+}
+
 @media (max-width: 770px) {
     .toggler-container {
         display: block;
+        order: 1;
     }
 
     .toggler-container button {
@@ -91,6 +100,10 @@ svg {
         width: 18px;
     }
 
+    header nav {
+        display: none;
+    }
+
     .navigation {
         position: fixed;
         width: 25%;
@@ -100,6 +113,7 @@ svg {
         left: -100%;
         padding-top: 20px;
         transition: left 0.4s ease-out;
+        display: block;
     }
 
     .navigation.active {
@@ -120,6 +134,7 @@ svg {
         font-size: 12px;
     }
 }
+
 
 /* ACCUEIL */
 main {
@@ -238,7 +253,7 @@ main .besoin a:hover{
 }
 
 .partie3 article {
-    position: relative; /* Pour permettre le positionnement absolu des enfants */
+    position: relative;
 }
 
 .partie3 img {
@@ -251,11 +266,11 @@ main .besoin a:hover{
     text-transform: uppercase;
     font-weight: 800;
     font-size: 3rem;
-    position: absolute; /* Positionne le h3 absolument par rapport à l'article parent */
-    top: 50%; /* Place le h3 au milieu verticalement */
-    left: 50%; /* Place le h3 au milieu horizontalement */
-    transform: translate(-50%, -50%); /* Centre le h3 par rapport à son centre */
-    text-align: center; /* Centre le texte à l'intérieur du h3 */
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .partie3 h3 span {
