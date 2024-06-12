@@ -326,6 +326,97 @@ main .besoin a:hover{
 }
 
 
+/* FORMATIONS */
+.h1_formation{
+    color: #fff;
+    text-transform: uppercase;
+    flex: 1;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.h1_formation span{
+    color: var(--violet);
+}
+
+.partie2_formation {
+    display: flex;
+    justify-content: center; /* Centre horizontalement le contenu */
+    align-items: center; /* Centre verticalement le contenu */
+    background-color: #111;
+    padding: 20px;
+    margin: 50px 0;
+    text-align: center; /* Centre le texte */
+}
+
+.quality_formation {
+    color: #fff;
+    display: flex;
+    justify-content: center; /* Centre horizontalement le contenu */
+    align-items: center; /* Centre verticalement le contenu */
+}
+
+.quality_formation h2{
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.quality_formation img {
+    margin-right: 10px;
+    width: 50px;
+}
+
+.card-container h1{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.card-container h1 span{
+    color: var(--violet);
+    font-size: 2rem;
+}
+
+.card{
+    margin: 40px 0;
+}
+
+.card, .list-group-item{
+    background-color: var(--fond-noir);
+}
+
+.card-header{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.card-header span{
+    color: var(--violet);
+}
+
+.card2{
+    color: var(--bleu-turquoise) !important;
+}
+
+.list-group-item{
+    color: #fff;
+}
+
+
+/* RESPONSIVE DESIGN FORMATION */
+@media (max-width: 425px){
+    .h1_formation{
+        font-size: 3rem;
+    }
+    .h1_formation span{
+        font-size: 2rem;
+    }
+}
+
 /* FOOTER */
 footer{
     background-color: var(--violet-footer);

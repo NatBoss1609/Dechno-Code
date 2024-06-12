@@ -4,7 +4,51 @@
 
 ?>
     <main>
-        
+        <section class="formation1">
+            <h1 class="h1_formation">
+                FORMATIONS <br><span>PARCOURS.</span>
+            </h1>
+        </section>
+        <section class="partie2_formation">
+            <article class="quality_formation">
+                <img src="../img/apostrophe_gauche.png" alt="apostrophe">
+                <h2>
+                    L'expérience garantie l'excellence
+                </h2>
+                <img src="../img/apostrophe_gauche.png" alt="apostrophe">
+            </article>
+        </section>
+        <section class="card-container">
+            <h1>
+                PARCOURS <span>&EXPERIENCES</span>
+            </h1>
+            <article class="card" style="width: 100%;">
+                <article class="card-header">
+                    PARCOURS <span>SCOLAIRE</span>
+                </article>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">2021-2022 : Haute Ecole de la Province de Liège section Infographie</li>
+                    <li class="list-group-item">2019-2021 : Institut Marie-Thérèse section Infographie (Obtention du CESS (BAC))</li>
+                    <li class="list-group-item">2015-2019 : Athénée Royal de Herstal section Latine (Obtention du CE1D en 2017 (brevet))</li>
+                    <li class="list-group-item">2005-2015 : Ecole Primaire José Bodson à Oupeye (Obtention du CEB en 2015) </li>
+                </ul>
+            </article>
+            <article class="card" style="width: 100%;">
+                <article class="card-header">
+                    EXPERIENCE <span class="card2">PROFESSIONNEL</span>
+                </article>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">SEO Box (Développeur web) Travail Actuel depuis le 26/03/2024</li>
+                    <li class="list-group-item">Prisma Tech (Développeur web) Du 26/02/2024 au 26/03/2024</li>
+                    <li class="list-group-item">McDonald's (Equipier) Du 02/05/2023 au 02/02/2024</li>
+                    <li class="list-group-item">Sketchers EDC (Réceptionneur camion) Du 27/01/2023 au 02/04/2023</li>
+                    <li class="list-group-item">PFS Web (Préparateur de commandes) Du 21/11/2022 au 26/01/2023</li>
+                    <li class="list-group-item">EuroRegister (Soudeur) Du 14/11/2022 au 20/11/2022</li>
+                    <li class="list-group-item">Agora Vottem (Réassortisseur rayon) Du 01/11/2022 au 14/11/2022</li>
+                    <li class="list-group-item">CooperVision (Préparateur de commandes) Du 03/10/2022 au 14/10/2022</li>
+                </ul>
+            </article>
+        </section>
     </main>
 
 <?php
