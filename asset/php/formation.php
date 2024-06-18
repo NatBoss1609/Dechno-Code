@@ -18,12 +18,12 @@
                 <img src="../img/apostrophe_gauche.png" alt="apostrophe">
             </article>
         </section>
-        <section class="card-container">
+        <section class="card-container-formation">
             <h1>
                 PARCOURS <span>&EXPERIENCES</span>
             </h1>
-            <article class="card" style="width: 100%;">
-                <article class="card-header">
+            <article class="card-formation" style="width: 100%;">
+                <article class="card-header-formation">
                     PARCOURS <span>SCOLAIRE</span>
                 </article>
                 <ul class="list-group list-group-flush">
@@ -33,8 +33,8 @@
                     <li class="list-group-item">2005-2015 : Ecole Primaire José Bodson à Oupeye (Obtention du CEB en 2015) </li>
                 </ul>
             </article>
-            <article class="card" style="width: 100%;">
-                <article class="card-header">
+            <article class="card-formation" style="width: 100%;">
+                <article class="card-header-formation">
                     EXPERIENCE <span class="card2">PROFESSIONNEL</span>
                 </article>
                 <ul class="list-group list-group-flush">

@@ -369,32 +369,32 @@ main .besoin a:hover{
     width: 50px;
 }
 
-.card-container h1{
+.card-container-formation h1{
     color: #fff;
     text-transform: uppercase;
     text-align: center;
     font-size: 4rem;
 }
 
-.card-container h1 span{
+.card-container-formation h1 span{
     color: var(--violet);
     font-size: 2rem;
 }
 
-.card{
+.card-formation{
     margin: 40px 0;
 }
 
-.card, .list-group-item{
+.card-formation, .list-group-item{
     background-color: var(--fond-noir);
 }
 
-.card-header{
+.card-header-formation{
     color: #fff;
     font-size: 2rem;
 }
 
-.card-header span{
+.card-header-formation span{
     color: var(--violet);
 }
 
@@ -416,6 +416,45 @@ main .besoin a:hover{
         font-size: 2rem;
     }
 }
+
+
+/* PORTFOLIO */
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.card{
+    background-color: var(--fond-noir);
+}
+
+.card h5{
+    color: var(--violet);
+    text-transform: uppercase;
+}
+
+.card p{
+    color: #fff;
+}
+
+.card-body a{
+    background-color: var(--bleu-turquoise);
+}
+
+/* RESPONSIVE DESIGN PORTFOLIO */
+@media (max-width: 900px){
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .card {
+        margin-bottom: 20px;
+      }
+}
+
 
 /* FOOTER */
 footer{
