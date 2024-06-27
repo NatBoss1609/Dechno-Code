@@ -4,7 +4,46 @@
 
 ?>
     <main>
-
+        <section class="formation1">
+            <h1 class="h1_formation">
+                PRESTATIONS <br><span>& SERVICES</span>
+            </h1>
+        </section>
+        <section class="partie2_formation">
+            <article class="quality_formation">
+                <img src="../img/apostrophe_gauche.png" alt="apostrophe">
+                <h2>
+                    Une bonne écoute ? un bon projet
+                </h2>
+                <img src="../img/apostrophe_gauche.png" alt="apostrophe">
+            </article>
+        </section>
+        <section class="cards-container">
+            <article class="card" style="width: 18rem;">
+                <img src="../img/developpement_de_site_web.avif" class="card-img-top" alt="image représentant le développement de sites web">
+                <article class="card-body">
+                    <h5 class="card-title">Sites web</h5>
+                    <p class="card-text">Développement de sites web responsive, maintenable et professionnels</p>
+                    <a href="portfolio.php" class="btn btn-primary" title="lien vers la page de portfolio" target="_blank">Exemples de sites web crées</a>
+                </article>
+            </article>
+            <article class="card" style="width: 18rem;">
+                <img src="../img/developpement_applications.jpg" class="card-img-top" alt="image représentant le développement d'applications">
+                <article class="card-body">
+                    <h5 class="card-title">Applications</h5>
+                    <p class="card-text">Développements d'applications web et mobiles professionnelles et facile d'utilisation</p>
+                    <a href="portfolio.php" class="btn btn-primary" title="lien vers la page de portfolio" target="_blank">Exemples d'applications réalisées</a>
+                </article>
+            </article>
+            <article class="card" style="width: 18rem;">
+                <img src="../img/SEO.jpg" class="card-img-top" alt="image représentant le service SEO (référencement)">
+                <article class="card-body">
+                    <h5 class="card-title">Service SEO</h5>
+                    <p class="card-text">Service de référencement réalisé par mon employeur</p>
+                    <a href="https://seobox.io/" class="btn btn-primary" title="lien vers le site de SEObox.io" target="_blank">Visiter le site</a>
+                </article>
+            </article>
+        </section>
     </main>
 
 <?php
