@@ -22,25 +22,25 @@
             <article class="card" style="width: 18rem;">
                 <img src="../img/kyoto.png" class="card-img-top" alt="image représentant le site du guide touristique de Kyoto">
                 <article class="card-body">
-                    <h5 class="card-title">Kyoto</h5>
+                    <h5 class="card-title">Site Web</h5>
                     <p class="card-text">Site de présentation sur la ville de Kyoto</p>
-                    <a href="https://natboss1609.github.io/Site-Kyoto/" class="btn btn-primary" title="lien vers le site de présenation de Kyoto" target="_blank">Visiter le site</a>
+                    <a href="https://natboss1609.github.io/Site-Kyoto/" class="btn btn-primary" title="lien vers le site de présentation de Kyoto" target="_blank">Visiter le site</a>
                 </article>
             </article>
             <article class="card" style="width: 18rem;">
-                <img src="../img/omlette.png" class="card-img-top" alt="image représentant le site de la recette d'une omlette">
+                <img src="../img/logo_lets_eat.avif" class="card-img-top" alt="image représentant l'application let's eat">
                 <article class="card-body">
-                    <h5 class="card-title">Recette d'une omlette</h5>
-                    <p class="card-text">Site détaillé pour la recette d'une omlette</p>
-                    <a href="https://natboss1609.github.io/Site-Page-Recette/" class="btn btn-primary" title="lien vers le site détaillé d'une recette pour une omlette" target="_blank">Visiter le site</a>
+                    <h5 class="card-title">Application Web</h5>
+                    <p class="card-text">Application web let's eat pour un restaurant</p>
+                    <a href="https://letseat.ky/" class="btn btn-primary" title="lien vers l'application web let's eat'" target="_blank">Visiter le site</a>
                 </article>
             </article>
             <article class="card" style="width: 18rem;">
-                <img src="../img/pistache.png" class="card-img-top" alt="image représentant le site du restaurant pistache">
+                <img src="../img/logo_seobox.png" class="card-img-top" alt="image représentant le logo de seobox.io">
                 <article class="card-body">
-                    <h5 class="card-title">Restaurant Pistache</h5>
-                    <p class="card-text">Site du restaurant gastronomique Pistache</p>
-                    <a href="https://natboss1609.github.io/Site-Restaurant-Pistache/" class="btn btn-primary" title="lien vers le site de présenation du restaurant pistache" target="_blank">Visiter le site</a>
+                    <h5 class="card-title">Service SEO</h5>
+                    <p class="card-text">Site de mon employeur qui gèrera vos services SEO</p>
+                    <a href="https://seobox.io/" class="btn btn-primary" title="lien vers le site de seobox.io" target="_blank">Visiter le site</a>
                 </article>
             </article>
         </section>
