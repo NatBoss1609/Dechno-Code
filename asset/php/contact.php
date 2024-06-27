@@ -4,8 +4,37 @@
 
 ?>
     <main>
-
+        <section class="formation1">
+            <h1 class="h1_formation">
+                ENTRONS EN <br><span>CONTACT.</span>
+            </h1>
+        </section>
+        <section class="partie2_formation">
+            <article class="quality_formation">
+                <img src="../img/apostrophe_gauche.png" alt="apostrophe">
+                <h2>
+                    une approche basée sur le respect
+                </h2>
+                <img src="../img/apostrophe_gauche.png" alt="apostrophe">
+            </article>
+        </section>
+        <section class="contact-section">
+            <form id="contactForm" action="" method="POST">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Numéro de téléphone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
     </main>
+
+
 
 <?php
 
