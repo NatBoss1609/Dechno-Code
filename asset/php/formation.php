@@ -13,7 +13,7 @@
             <article class="quality_formation">
                 <img src="../img/apostrophe_gauche.png" alt="apostrophe">
                 <h2>
-                    L'expérience garantie l'excellence
+                    L'expérience garantit l'excellence
                 </h2>
                 <img src="../img/apostrophe_gauche.png" alt="apostrophe">
             </article>
@@ -35,7 +35,7 @@
             </article>
             <article class="card-formation" style="width: 100%;">
                 <article class="card-header-formation">
-                    EXPERIENCE <span class="card2">PROFESSIONNEL</span>
+                    EXPERIENCE <span class="card2">PROFESSIONNELLE</span>
                 </article>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">SEO Box (Développeur web) Travail Actuel depuis le 26/03/2024</li>

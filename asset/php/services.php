@@ -23,16 +23,16 @@
                 <img src="../img/developpement_de_site_web.avif" class="card-img-top" alt="image représentant le développement de sites web">
                 <article class="card-body">
                     <h5 class="card-title">Sites web</h5>
-                    <p class="card-text">Développement de sites web responsive, maintenable et professionnels</p>
-                    <a href="portfolio.php" class="btn btn-primary" title="lien vers la page de portfolio" target="_blank">Exemples de sites web crées</a>
+                    <p class="card-text">Développement de sites web responsives, maintenables et professionnels</p>
+                    <a href="portfolio.php" class="btn btn-primary" title="lien vers la page de portfolio" target="_blank">Exemple de site web créés</a>
                 </article>
             </article>
             <article class="card" style="width: 18rem;">
                 <img src="../img/developpement_applications.jpg" class="card-img-top" alt="image représentant le développement d'applications">
                 <article class="card-body">
                     <h5 class="card-title">Applications</h5>
-                    <p class="card-text">Développements d'applications web et mobiles professionnelles et facile d'utilisation</p>
-                    <a href="portfolio.php" class="btn btn-primary" title="lien vers la page de portfolio" target="_blank">Exemples d'applications réalisées</a>
+                    <p class="card-text">Développement d'applications web et mobiles professionnelles et faciles d'utilisation</p>
+                    <a href="portfolio.php" class="btn btn-primary" title="lien vers la page de portfolio" target="_blank">Exemple d'application réalisée</a>
                 </article>
             </article>
             <article class="card" style="width: 18rem;">
