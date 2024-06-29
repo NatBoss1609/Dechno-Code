@@ -16,6 +16,6 @@
       </section>
       <section class="social">
         <span>Suivez-moi sur les réseaux sociaux</span>
-        <a href="https://www.instagram.com/decrayenathan/"><img src="../img/Social media.png" alt="logo facebook et instagram"></a>
+        <a href="https://www.instagram.com/decrayenathan/"><img src="../img/social_media.png" alt="logo facebook et instagram"></a>
       </section>
     </footer>
