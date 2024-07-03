@@ -20,11 +20,11 @@
         </section>
         <section class="cards-container">
             <article class="card" style="width: 18rem;">
-                <img src="../img/kyoto.png" class="card-img-top" alt="image représentant le site du guide touristique de Kyoto">
+                <img src="../img/pistache.PNG" class="card-img-top" alt="image représentant le site du restaurant pistache">
                 <article class="card-body">
                     <h5 class="card-title">Site Web</h5>
-                    <p class="card-text">Site de présentation sur la ville de Kyoto</p>
-                    <a href="https://natboss1609.github.io/Site-Kyoto/" class="btn btn-primary" title="lien vers le site de présentation de Kyoto" target="_blank">Visiter le site</a>
+                    <p class="card-text">Site de présentation du restaurant Pistache</p>
+                    <a href="https://restaurant-pistache.com/" class="btn btn-primary" title="lien vers le site de présentation du restaurant Pistache" target="_blank">Visiter le site</a>
                 </article>
             </article>
             <article class="card" style="width: 18rem;">
