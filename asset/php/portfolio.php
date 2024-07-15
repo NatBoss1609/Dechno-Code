@@ -43,6 +43,9 @@
                     <a href="https://seobox.io/" class="btn btn-primary" title="lien vers le site de seobox.io" target="_blank">Visiter le site</a>
                 </article>
             </article>
+            <div class="see-more-container">
+                <a href="https://nathandecraye-portfolio-be.preview-domain.com/" class="btn btn-primary" title="lien vers le portfolio de Nathan Decraye" target="_blank">Voir plus</a>
+            </div>
         </section>
     </main>
 

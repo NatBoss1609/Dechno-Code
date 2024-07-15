@@ -421,39 +421,52 @@ main .besoin a:hover{
 /* PORTFOLIO */
 .cards-container {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 20px;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 
-.card{
+.card {
     background-color: var(--fond-noir);
 }
 
-.card h5{
+.card h5 {
     color: var(--violet);
     text-transform: uppercase;
 }
 
-.card p{
+.card p {
     color: #fff;
 }
 
-.card-body a{
+.card-body a {
+    background-color: var(--bleu-turquoise);
+}
+
+.see-more-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.see-more-container .btn {
     background-color: var(--bleu-turquoise);
 }
 
 /* RESPONSIVE DESIGN PORTFOLIO */
-@media (max-width: 900px){
+@media (max-width: 900px) {
     .cards-container {
         flex-direction: column;
         align-items: center;
-      }
+    }
     
-      .card {
+    .card {
         margin-bottom: 20px;
-      }
+    }
 }
+
 
 
 /* CONTACT */
