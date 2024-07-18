@@ -44,7 +44,7 @@
                 </article>
             </article>
             <div class="see-more-container">
-                <a href="https://nathandecraye-portfolio-be.preview-domain.com/" class="btn btn-primary" title="lien vers le portfolio de Nathan Decraye" target="_blank">Voir plus</a>
+                <a href="https://nathandecraye-portfolio.be/" class="btn btn-primary" title="lien vers le portfolio de Nathan Decraye" target="_blank">Voir plus</a>
             </div>
         </section>
     </main>
